@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	line-height: 40px;
+}
+
+.wrap_top {
+	background-color: blue;
+}
+
+.wrap_bottom, .wrapp {
+	background-color: yellow;
+}
+.wrap_bottom, .wrap_top {
+	display: flex;
+	justify-content: center;
+	height: 50vh;
+}
+
+.wrapp {
+	display: flex;
+	justify-content: center;
+}
+
+.pc, .stone, .paper, .scissors {
+	width: 200px;
+	height: 200px;
+	border: 7px solid black;
+	border-radius: 15px;
+	margin: 51px;
+}
+
+.result {
+	display: block;
+    width: 800px;
+    height: 50px;
+    border: 7px solid black;
+    border-radius: 15px;
+	font-size: 45px;
+	margin-top: -50px;
+	background-color: yellow;
+	text-align: center;
+}
+
+.counterLose, .counterWin {
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	font-size: 46px;
+	float: right;
+    right: 5px;
+	position: absolute;
+	margin-top: 3px;
+}
+
+.start {
+	height: 50px;
+	float: left;
+    left: 5px;
+	position: absolute;
+	margin-top: 3px;
+}
